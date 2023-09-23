@@ -1,0 +1,591 @@
+$base-color: #FFF
+    
+*
+    font-family: 'Inter' 
+    margin: 0
+    padding: 0
+
+header
+    padding-top: 40px
+    background: url('../images/bcgimg.jpeg') center center/cover no-repeat
+    min-height: 900px
+.header_list
+    display: flex
+    list-style-type: none
+    &_item ~ &_item
+        margin-left: 35px
+.header_list_item
+    a
+        color: $base-color
+        text-decoration: none
+        transition: 0.4s all
+        &:hover
+            color: #2b4d92
+.header_nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+.header_img
+    cursor: pointer
+.header_list_text
+    font-size: 16px
+    font-weight: 400
+    color: $base-color
+.header_logo
+    font-size: 32px
+    font-weight: 500
+    color: $base-color
+    cursor: pointer
+.header_header  
+    color: $base-color
+    font-size: 96px
+    font-weight: 600
+    line-height: normal
+    margin-top: 187px
+.header_subheader
+    color: $base-color
+    font-size: 16px
+    font-weight: 400
+    line-height: 150%
+    margin-top: 30px
+.header_button
+    border: none                                               
+    margin-top: 50px
+    width: 180px
+    height: 60px
+    transition: 0.4s
+    &:hover
+        background-color: #1D1D1F
+
+    a
+        display: inline-block
+        font-size: 17px
+        font-weight: 600
+        color: #1D1D1F
+        text-decoration: none
+        transition: 0.4
+        width: 180px
+        height: 60px
+        padding-top: 18px
+        &:hover
+            color: #fff
+
+main
+    padding-top: 190px
+    min-height: 918px
+.main_number_info
+    &_figure
+        font-size: 64px
+        font-weight: 300
+        color: #1D1D1F
+    &_character
+        font-size: 16px
+        font-weight: 400
+        color: #838383
+.main_number_info ~ .main_number_info
+    margin-top: 60px
+.main_bold_text
+    color: #1D1D1F
+    font-size: 44px
+    font-weight: 700
+    line-height: 140%
+    margin-bottom: 60px
+.main_small_text
+    color:  #1D1D1F
+    font-size: 16px
+    font-weight: 400
+    line-height: 150%
+.main_small_text ~ .main_small_text
+    margin-top: 30px
+
+.just_image
+    background: url('../images/vplayer.jpg') center center/cover no-repeat
+    min-height: 630px
+
+.two_images
+    padding-top: 190px
+    min-height: 1996px
+.two_images_first_part
+    &_img
+        margin-top: 209px
+        display: block
+        width: 570px
+        height: 400px
+    &_header
+        margin-top: 90px
+        color:  #838383
+        font-size: 24px
+        font-weight: 400
+    &_subheader
+        color:  #1D1D1F
+        font-size: 16px
+        font-weight: 400
+        line-height: 150%
+        margin-top: 20px
+    &_btn
+        margin-top: 60px
+        width: 180px
+        height: 60px
+        border: none
+        background-color: #020202
+        transition: 0.4s
+        &:hover
+            background-color: #4b3c3c
+        a
+            color:  #FFF
+            font-size: 17px
+            font-weight: 600
+            line-height: normal
+            text-decoration: none
+            display: inline-block
+            transition: 0.4s
+            width: 100%
+            height: 100%
+            padding-top: 18px
+            &:hover
+                color: #020202
+
+
+.two_images_second_part
+    &_img
+        display: block
+        width: 570px
+        height: 400px
+        margin-left: 60px
+    &_header
+        margin-top: 209px
+        color:  #838383
+        font-size: 24px
+        font-weight: 400
+        margin-left: 60px
+    &_subheader
+        color:  #1D1D1F
+        font-size: 16px
+        font-weight: 400
+        line-height: 150%
+        margin-top: 20px
+        margin-left: 60px
+    &_btn
+        margin-top: 60px
+        width: 180px
+        height: 60px
+        border: none
+        background-color: #020202
+        margin-left: 60px
+        transition: 0.4s
+        &:hover
+            background-color: #4b3c3c
+        a
+            color:  #FFF
+            font-size: 17px
+            font-weight: 600
+            line-height: normal
+            text-decoration: none
+            display: inline-block
+            transition: 0.4s
+            width: 100%
+            height: 100%
+            padding-top: 18px
+            &:hover
+                color: #020202
+.section_quote
+    margin-top: 190px
+    font-family: Inter
+    font-size: 16px
+    font-weight: 400
+    color: #838383
+.section_quote_text
+    margin-top: 50px
+    color: #1D1D1F
+    font-family: Inter
+    font-size: 36px
+    font-weight: 500
+    line-height: 150%
+.section_founder
+    display: flex
+    align-items: center
+    margin-top: 30px
+    &_name
+        color: #1D1D1F
+        font-family: Inter
+        font-size: 16px
+        font-weight: 400
+    &_specialization
+        color: #838383
+        font-family: Inter
+        font-size: 16px
+        font-weight: 400
+        line-height: 150%
+        margin-left: 6px
+
+.only_back_image
+    min-height: 900px
+    background: url('../images/bgcimg2.jpg') center center/cover no-repeat
+
+.stats
+    min-height: 948px
+    padding: 230px 0px 220px 0px
+    &_header_stat
+        color: #1D1D1F
+        font-size: 32px
+        font-weight: 500
+        &:before
+            content: ""
+            display: block
+            width: 1200px
+            height: 1px
+            opacity: 0.4
+            background: #1D1D1F
+            position: relative
+            bottom: 40px
+    &_header_stat ~ &_header_stat
+        margin-top: 110px
+    &_info_text
+        color: #838383
+        font-family: Inter
+        font-size: 16px
+        font-weight: 400
+        line-height: 150%
+    &_info_text ~ &_info_text
+        margin-top: 80px
+
+footer
+    min-height: 400px
+    padding: 90px 0px 126px 0px
+    background-color: #1D1D1F
+.footer_first_part
+    &_header
+        color: #FFF
+        font-size: 32px
+        font-weight: 500
+        line-height: 130%
+        margin-bottom: 48px
+    &_subheader
+        color:  #838383
+        font-size: 16px
+        font-weight: 400
+        margin-bottom: 30px
+    &_icon
+        cursor: pointer
+    &_icon ~ &_icon
+        margin-left: 20px
+.footer_second_part
+    &_header
+        color: #FFF
+        font-size: 32px
+        font-weight: 500
+        line-height: 130%
+        margin-bottom: 34px
+    &_subheader
+        color: #838383
+        font-size: 13px
+        font-weight: 700
+        letter-spacing: 1.04px
+        text-transform: uppercase
+        transition: 0.4s
+        &:hover
+            color: #a38282
+            cursor: pointer
+        &:after
+            content: ""
+            display: block
+            width: 570px
+            height: 1px
+            background: #838383
+            position: relative
+            top: 24px
+.footer_second_part_mail_part
+    display: flex
+    justify-content: space-between
+.footer_second_part_mail_part_img
+    position: relative
+    right: 70px
+    cursor: pointer
+
+@media (max-width: 1400px)
+
+    .main_small_text
+        font-size: 15px
+    .two_images
+        min-height: 1880px
+    .two_images_second_part_img
+        margin-left: 15px
+        width: 524px
+        height: 368px
+    .two_images_second_part_header
+        margin-top: 159px
+    .two_images_first_part_img
+        width: 524px
+        height: 368px
+        margin-top: 159px
+    .secton_quote
+        margin-top: 145px
+    .stats_header_stat:before
+        width: 1120px
+    .stats_info_text
+        font-size: 15px
+    .stats_header_stat
+        font-size: 29px
+    .section_quote_text
+        font-size: 33px
+    .footer_second_part_mail_part_img
+        right: 25px
+
+@media (max-width: 1200px)   
+    .main_bold_text
+        font-size: 38px
+    .main_small_text
+        font-size: 12px
+    .main_number_info_figure
+        font-size: 50px
+    .main_number_info_character
+        font-size: 15px
+    main
+        min-height: 840px
+    .two_images
+        min-height: 1840px
+        &_first_part_subheader
+            font-size: 13px
+        &_second_part_img
+            width: 461px
+            height: 323px
+            margin-left: 0px
+        &_first_part_img
+            width: 461px
+            height: 323px
+        &_second_part_header
+            margin-left: 24px
+            margin-top: 215px
+        &_second_part_subheader
+            margin-left: 24px
+            font-size: 13px
+        &_second_part_btn
+            margin-left: 24px
+    .section_quote
+        text-align: center
+        &_text 
+            text-align: center
+    .section_founder
+        justify-content: center
+    .stats
+        min-height: 870px
+        padding-bottom: 0px
+    .stats_header_stat
+        font-size: 27px
+        &:before
+            width: 930px
+    .stats_info_text
+        font-size: 12px
+    .footer_second_part_subheader:after
+        width: 450px
+
+@media (max-width: 991px)
+    .header_header
+        text-align: center
+        margin-top: 140px
+    .header_subheader
+        text-align: center
+    .header_button
+        display: block
+        margin: 0 auto
+        margin-top: 65px
+    main
+        min-height: 760px
+    .main_number_info_figure
+        font-size: 38px
+    .main_number_info_character
+        font-size: 12px
+    .main_bold_text
+        font-size: 28px
+    .main_small_text
+        font-size: 11px
+    .just_image
+        min-height: 400px
+    .two_images
+        min-height: 1720px
+        &_first_part_subheader
+            font-size: 10px
+        &_second_part_img
+            width: 335px
+            height: 280px
+        &_first_part_header
+            margin-top: 55px
+        &_first_part_img
+            width: 335px
+            height: 280px
+        &_second_part_header
+            margin-top: 190px
+            margin-left: 0px
+        &_second_part_subheader
+            margin-left: 0px
+            font-size: 10px
+        &_second_part_btn
+            margin-left: 0px
+        .section_quote_text
+            font-size: 29px
+    .only_back_image
+        min-height: 500px
+    .stats
+        min-height: 870px
+    .stats_header_stat
+        font-size: 24px
+        &:before
+            width: 700px
+    .stats_info_text
+        font-size: 9px
+    .stats_info_text ~ .stats_info_text 
+        margin-top: 100px
+    footer
+        min-height: 250px
+        padding: 60px 0px 60px 0px
+    .footer_second_part_subheader:after
+        width: 350px
+    .footer_second_part_header
+        font-size: 23px
+    .footer_first_part_subheader
+        font-size: 13px
+    .two_images
+        &_first_part_btn
+            width: 150px
+            height: 55px
+        &_second_part_btn
+            width: 150px
+            height: 55px
+
+@media (max-width: 767px)
+    ul
+        margin-bottom: 0px
+    .header_list
+        align-items: center
+    .header_header
+        font-size: 85px
+    .header_button
+        margin-top: 110px
+    main
+        min-height: 900px
+        padding-top: 90px
+    .main_number_info_character
+        text-align: center
+    .main_number_info_figure
+        text-align: center
+    .main_bold_text
+        text-align: center
+        font-size: 13px
+        margin-top: 55px
+    .main_small_text
+        text-align: center
+        font-size: 8px
+    .just_image
+        min-height: 300px
+    .two_images_first_part_img 
+        width: 280px
+        height: 210px
+        position: relative
+        left: -60px
+        margin-bottom: 100px
+    .two_images_second_part_img 
+        width: 280px
+        height: 210px
+        position: relative
+        left: -60px
+    .two_images_first_part_header
+        text-align: center
+    .two_images_first_part_subheader
+        text-align: center
+        font-size: 8px
+    .two_images_second_part_header
+        text-align: center
+    .two_images_second_part_subheader
+        text-align: center
+        font-size: 8px
+    .two_images
+        padding-top: 120px
+        .section_quote_text
+            font-size: 23px
+    .only_back_image
+        min-height: 400px
+        margin-top: 30px
+    .stats_header_stat
+        font-size: 21px
+        &:before
+            width: 530px
+    .stats
+        min-height: 750px
+        padding-top: 180px
+        &_info_text
+            font-size: 6px
+    .stats_info_text ~ .stats_info_text 
+        margin-top: 112px
+    .footer_second_part_header
+        font-size: 17px
+    .footer_first_part_icon ~ .footer_first_part_icon
+        margin-left: 35px
+    .footer_second_part_subheader:after
+        width: 250px
+
+@media (max-width: 575px)
+    header
+        min-height: 755px
+    .header_logo
+        font-size: 13px
+    .header_list_text
+        font-size: 10px
+    .header_list_item ~ .header_list_item 
+        margin-left: 16px
+    .header_header
+        font-size: 50px
+    .header_subheader
+        font-size: 12px
+    main
+        min-height: 850px
+    .just_image
+        min-height: 220px
+    .two_images
+        &_first_part_btn
+            display: block
+            margin-top: 30px
+        &_first_part_subheader
+            font-size: 5px
+        &_second_part_subheader
+            font-size: 5px
+        &_first_part_img
+            left: -90px
+        &_second_part_img
+            left: -90px
+        &_first_part_btn
+            position: relative
+            left: -25px
+        &_second_part_btn
+            position: relative
+            left: -25px
+        .section_quote_text
+            font-size: 15px
+    .only_back_image
+        min-height: 230px
+    .stats_header_stat
+        font-size: 18px
+    .stats_info_text
+        font-size: 4px
+    .stats_header_stat
+        font-size: 24px
+        &:before
+            width: 340px
+    .stats_info_text ~ .stats_info_text 
+        margin-top: 124px
+    .footer_first_part_header
+        text-align: center
+    .footer_first_part_subheader
+        text-align: center
+    .footer_second_part_header
+        font-size: 12px
+        text-align: center
+        margin-top: 20px
+    .footer_second_part_mail_part_img
+        right: 50px
+    .footer_second_part_subheader
+        margin-left: 45px
+    .footer_first_part_icon
+        margin-left: 71px
+
+    
+    
